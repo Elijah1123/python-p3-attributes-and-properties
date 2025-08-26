@@ -50,3 +50,16 @@ class Dog:
         else:
             self._breed = value
 
+if __name__ == "__main__":
+    dog1 = Dog("Buddy", "Beagle")
+    print("Dog1:", dog1.name, dog1.breed)
+
+    dog2 = Dog("", "Mastiff")
+    print("Dog2:", dog2.name, dog2.breed)
+
+    dog3 = Dog("Charlie", "AlienDog")
+    print("Dog3:", dog3.name, dog3.breed)   
+
+    dog4 = Dog("Luna", "Corgi")
+    print("Dog 4:", dog4.name, dog4.breed)      
+
